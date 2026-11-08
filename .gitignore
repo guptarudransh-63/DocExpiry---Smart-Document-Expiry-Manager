@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+client/dist/
+server/dist/
+dist/
+
+# Local DB / Data
+server/data/
+*.lock
+
+# Vite temp
+*.timestamp-*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploads (local development)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Test coverage
+coverage/
+
+# Misc
+*.tgz
+.eslintcache
